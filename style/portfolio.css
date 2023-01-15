@@ -1,0 +1,358 @@
+body{
+    font-family: 'Open Sans';
+    margin: 0;
+    box-sizing: border-box;
+}
+.header{
+      background-color: rgba(255, 144, 14, 0.1);
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-title{
+    font-weight: 700;
+    font-size: 45px;
+    padding-left: 210px;
+    padding-top: 50px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    padding-right: 240px;
+    padding-top: 60px;
+}
+nav li{
+    list-style: none;
+    margin-left: 50px;
+
+}
+/* banner styles */
+.banner{
+    display: flex;
+    align-items: center;
+    padding: 40px 530px 50px ;
+}
+.title{
+    width: 860px;
+    height: 220px;
+}
+.banner-title{
+    font-weight: 800;
+    font-size: 64px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.banner-description{
+    color:#727272;
+    font-size: 16px;
+    margin-bottom: 32px;
+    text-align: center;
+}
+.btn-primary{
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 0;
+    text-align: center;
+    color: #FFFFFF;
+    width: 180px;
+    height: 64px;
+    background: #FF900E;
+    margin: 20px 60px 10px 320px;
+}
+.image{
+   margin-left: 220px;
+   margin-bottom: 40px;
+}
+/* mian */
+
+.container{
+    margin: 275px 307px 150px 67px;
+}
+
+.features{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 80px;
+    margin-left: 300px;
+    margin-bottom: 50px;
+}
+.thumbnail{
+    gap: 30px;
+}
+.feature{
+    font-weight: 500;
+    font-size: 45px;
+    height: 106px;
+    width: 468px;
+}
+.ql{
+    color:#727272
+}
+.features-color{
+    color: #FF900E;
+}
+.feature-description{
+    width: 537px;
+    height: 78px;
+    color: #727272;
+}
+.btn-primary2{
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 0;
+    text-align: center;
+    color: #FFFFFF;
+    width: 180px;
+    height: 64px;
+    background: #FF900E;
+}
+
+.featured{
+    background-image: url(../images/architect.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    margin-right: 200px;
+}
+.featured-title{
+    width: 468px;
+    height: 106px;
+    font-weight: 700;
+    font-size: 45px;
+    margin-left: 265px;
+
+}
+.featured-discription1{
+    width: 586px;
+    height: 78px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-left: 265px;
+}
+
+.featured-subtitle{
+    margin-left: 265px;
+}
+.featured-discription{
+    width: 586px;
+    height: 78px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-left: 265px;
+    box-shadow: 5px 5px 5px grey;
+}
+.btn-primary3{
+    font-weight: 700;
+    font-size: 55px;
+    border-radius: 8px;
+    border: 0;
+    text-align: center;
+    color: #FFFFFF;
+    width: 340px;
+    height: 200px;
+    background: #FF900E;
+}
+.featured-button{
+    margin: 85px 698px 130px 880px;
+    font-weight: 700;
+    font-size: 65px;
+}
+.fact{
+    width: 258px;
+    height: 53px;
+    font-weight: 700;
+    font-size: 45px;
+    margin-left: 240px;
+}
+.fact-discription{
+    color: #727272;
+    margin-left: 240px;
+    font-weight: 400;
+    font-size: 16px;
+    width: 542px;
+    height: 52px
+}
+.skill-container{
+    display: flex;
+    gap: 124px;
+    margin: 100px 290px 0;
+}
+.skill{
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    padding: 30px;
+    height: 242px;
+    width: 242px;
+    box-sizing: border-box solid #FF900E;
+}
+.skill-number{
+    width: 55px;
+    height: 53px;
+    font-weight: 600;
+    font-size: 45px;
+}
+.sponsors{
+    width: 327px;
+    height: 53px;
+    font-weight: 700;
+    font-size: 45px;
+    
+    margin-left: 810px;
+    margin-top: 150px;
+}
+.sponsors-discription{
+    width: 542px;
+    height: 52px;
+    font-weight: 400;
+    font-size: 16px;
+    margin-left: 689px;
+    text-align: center;
+}
+.logo{
+   margin-left: 240px;
+   margin-top: 50px;
+  display: flex;
+  gap: 155px;
+   
+}
+.copyright{
+    background-color: 
+    #FFF4E7;
+    margin: 133px 227px 213px 227px;
+    padding: 40px 10%;
+}
+
+
+@media screen and (max-width:576px) {
+    .header{
+        background-color: rgba(255, 144, 14, 0.1);
+        width: 800px;
+  }
+    nav{
+        display: flex;
+        width: 200px;
+        justify-content: space-between;
+        align-items: center;
+       
+
+    }
+    .nav-title{
+        font-weight: 400;
+        font-size: 25px;
+        padding-left: 30px;
+        padding-top: 40px;
+        margin-left: 100px;
+    }
+    nav ul{
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        padding-right: 20px;
+        padding-top: 40px;
+
+    }
+    nav li{
+        list-style: none;
+        margin-left: 40px;
+    
+    }
+    .image{
+        margin-left: 150px;
+        
+        margin-bottom: 40px;
+        width: 500px;
+    }
+    .banner{
+        display: flex;
+        align-items: center;
+        padding: 40px 50px 50px ;
+    }
+    .banner-title{
+        font-weight: 400;
+        font-size: 40px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .banner-description{
+        color:#727272;
+        font-size: 16px;
+        margin-bottom: 32px;
+        text-align: center;
+    }
+    .btn-primary{
+        font-weight: 300;
+        font-size: 8px;
+        border-radius: 5px;
+        border: 0;
+        text-align: center;
+        color: #FFFFFF;
+        width: 80px;
+        height: 30px;
+        background: #FF900E;
+        margin: 20px 60px 20px 260px;
+    }
+    .features{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: 40px;
+        margin-left: 0px;
+        gap: 20px;
+    }
+    .fact{
+        margin-left: 310px;
+        margin-top: 10px;
+    }
+    .fact-discription{
+        margin-left: 160px;
+        text-align: center;
+    }
+    .skill-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: 50px;
+    }
+    .logo{
+       margin-top:30px;
+       margin-left: 200px;
+       gap: 60px;
+       display: grid;
+       grid-template-columns: repeat(2, 1fr);
+    }
+    .sponsors{
+        margin-left: 280px;
+    }
+    .sponsors-discription{
+        margin-left: 160px;
+    }
+    .btn-primary3{
+        display: none;
+    }
+    .featured{
+        background-image: none;
+        margin-left: -100px;
+    }
+    .copyright{
+        background-color: 
+        #FFF4E7;
+       width: 100%;
+
+        font-size: 15px;
+        padding: 40px 40px;
+        text-align: center;
+    }
+    .container{
+        margin: 275px 90px 150px 67px;
+    }
+ .featured-item{
+    
+ }
+}
+.hide{
+    display: none;
+}
+
