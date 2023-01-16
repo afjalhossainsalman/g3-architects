@@ -223,15 +223,15 @@ nav li{
 .copyright{
     background-color: 
     #FFF4E7;
-    margin: 133px 227px 213px 227px;
-    padding: 40px 10%;
+    margin: 100px 227px 50px 227px;
+    padding: 40px 400px
 }
 
 
 @media screen and (max-width:576px) {
     .header{
         background-color: rgba(255, 144, 14, 0.1);
-        width: 800px;
+        width:800px;
   }
     nav{
         display: flex;
@@ -250,7 +250,7 @@ nav li{
     }
     nav ul{
         display: flex;
-        justify-content:center;
+        justify-content: center;
         align-items: center;
         padding-right: 20px;
         padding-top: 40px;
@@ -294,14 +294,17 @@ nav li{
         width: 80px;
         height: 30px;
         background: #FF900E;
-        margin: 20px 60px 20px 260px;
+        margin: 20px 60px 20px 300px;
     }
     .features{
         display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        margin-top: 40px;
-        margin-left: 0px;
-        gap: 20px;
+        grid-template-columns: repeat(1, 0.5fr);
+        margin-top: 50px;
+        margin-left: 70px;
+        margin-bottom: 20px;
+    }
+    .thumbnail{
+        gap: 30px;
     }
     .fact{
         margin-left: 310px;
@@ -314,7 +317,8 @@ nav li{
     .skill-container{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        margin-left: 50px;
+        margin-left: 80px;
+        gap: 50px;
     }
     .logo{
        margin-top:30px;
@@ -330,29 +334,73 @@ nav li{
         margin-left: 160px;
     }
     .btn-primary3{
-        display: none;
+        /* display: none; */
     }
     .featured{
-        background-image: none;
-        margin-left: -100px;
-    }
+        background-image: url(../images/architect.png);
+        background-repeat: no-repeat;
+        background-position: right;
+        margin-right: 0px;
+        width: 750px;
+
+        }
+        .featured-title{
+            width: 100%;
+            height: 100%;
+            font-weight: 400;
+            font-size: 40px;
+            margin-left: 50px;
+            margin-top: 20px;
+        
+        }
+        .featured-discription1{
+            width: 680px;
+            height: 50px;
+            font-weight: 400;
+            font-size: 20px;
+            color: black;
+            margin-left: 50px;
+        }
+        .featured-subtitle{
+            margin-left: 50px;
+            font-weight: 900;
+            font-size: 20px;
+        }
+        .featured-discription{
+            width: 100%;
+            height: 100%;
+            font-weight: 400;
+            font-size: 20px;
+            color: black;
+            margin-left: 50px;
+            box-shadow: 0px 0px 0px grey;
+        }
+        .btn-primary3{
+            font-weight: 600;
+            font-size: 20px;
+            border-radius: 8px;
+            border: 0;
+            text-align: center;
+            color: #FFFFFF;
+            width: 200px;
+            height: 100px;
+            background: #FF900E;
+        }
+        .featured-button{
+            margin-left: 300px;
+            font-weight: 700;
+            font-size: 15px;
+        }
     .copyright{
         background-color: 
         #FFF4E7;
-       width: 100%;
-
+        width: 100%;
         font-size: 15px;
         padding: 40px 40px;
         text-align: center;
+        margin-left: 180px;
     }
     .container{
-        margin: 275px 90px 150px 67px;
+        margin: 50px 90px 50px 67px;
     }
- .featured-item{
-    
- }
 }
-.hide{
-    display: none;
-}
-
